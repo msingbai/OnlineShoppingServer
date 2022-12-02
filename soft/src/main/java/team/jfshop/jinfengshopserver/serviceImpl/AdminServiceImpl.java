@@ -1,4 +1,4 @@
-package team.fengmishop.demo.serviceImpl;
+package team.jfshop.jinfengshopserver.serviceImpl;
 
 import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
@@ -6,10 +6,10 @@ import org.apache.commons.collections4.MapUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
-import team.fengmishop.demo.bean.AdminBean;
-import team.fengmishop.demo.dao.AdminDao;
-import team.fengmishop.demo.service.AdminService;
-import team.fengmishop.demo.util.MD5Util;
+import team.jfshop.jinfengshopserver.bean.AdminBean;
+import team.jfshop.jinfengshopserver.dao.AdminDao;
+import team.jfshop.jinfengshopserver.service.AdminService;
+import team.jfshop.jinfengshopserver.util.MD5Util;
 
 import javax.annotation.Resource;
 import java.util.Map;

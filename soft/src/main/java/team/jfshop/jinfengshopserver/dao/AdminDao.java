@@ -1,13 +1,15 @@
-package team.fengmishop.demo.service;
+package team.jfshop.jinfengshopserver.dao;
+
 
 import com.github.pagehelper.Page;
-import team.fengmishop.demo.bean.AdminBean;
+import team.jfshop.jinfengshopserver.bean.AdminBean;
 
 import java.util.Map;
 
-public interface AdminService {
+//@Mapper
+public interface AdminDao {
 
-    Page<AdminBean> selectAllUserInfo(Integer page, Integer limit);
+    Page<AdminBean> selectAllUserInfo();
 
     int selectUserCount();
 
@@ -19,7 +21,7 @@ public interface AdminService {
 
     int delUserById(String id);
 
-    Page<AdminBean> slectUserByName(String userName, Integer page, Integer limit);
+    Page<AdminBean> slectUserByName(String userName);
 
     int auditUserName(String userName);
 

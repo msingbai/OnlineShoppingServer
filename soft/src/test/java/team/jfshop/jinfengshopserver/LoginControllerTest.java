@@ -1,4 +1,4 @@
-package team.fengmishop.demo.controllerTest;
+package team.jfshop.jinfengshopserver;
 
 
 import org.junit.Before;

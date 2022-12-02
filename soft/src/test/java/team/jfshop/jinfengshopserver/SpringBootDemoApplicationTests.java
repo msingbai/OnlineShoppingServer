@@ -1,4 +1,4 @@
-package com.example.springbootdemo;
+package team.jfshop.jinfengshopserver;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
