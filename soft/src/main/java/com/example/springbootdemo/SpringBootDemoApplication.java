@@ -1,13 +1,17 @@
-package com.example.springbootdemo;
+package team.fengmishop.demo;
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringBootDemoApplication {
+//@MapperScan("com.jqf.dams.dao")
+@MapperScan("team.fengmishop.demo.dao")
+public class DamsApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringBootDemoApplication.class, args);
+        System.setProperty("tomcat.util.http.parser.HttpParser.requestTargetAllow","{}");
+        SpringApplication.run(DamsApplication.class, args);
     }
 
 }
