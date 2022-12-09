@@ -6,7 +6,11 @@ import org.apache.commons.collections4.MapUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
+<<<<<<< HEAD:soft/src/main/java/team/jfshop/jinfengshopserver/serviceImpl/AdminServiceImpl.java
 import team.fengmishop.demo.bean.AdminBean;
+=======
+import team.jfshop.jinfengshopserver.bean.AdminBean;
+>>>>>>> e269f60caa37a135a50031dfea5b4fa4eed45e50:soft/src/main/java/com/example/springbootdemo/serviceImpl/AdminServiceImpl.java
 import team.jfshop.jinfengshopserver.dao.AdminDao;
 import team.jfshop.jinfengshopserver.service.AdminService;
 import team.jfshop.jinfengshopserver.util.MD5Util;

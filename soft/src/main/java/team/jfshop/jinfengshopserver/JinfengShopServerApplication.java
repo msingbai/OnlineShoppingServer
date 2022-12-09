@@ -6,12 +6,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 //@MapperScan("com.jqf.dams.dao")
-@MapperScan("team.fengmishop.demo.dao")
-public class DamsApplication {
+@MapperScan("team.jfshop.jinfengshopserver.dao")
+public class JinfengShopServerApplication {
 
     public static void main(String[] args) {
         System.setProperty("tomcat.util.http.parser.HttpParser.requestTargetAllow","{}");
-        SpringApplication.run(DamsApplication.class, args);
+        SpringApplication.run(JinfengShopServerApplication.class, args);
     }
 
 }
