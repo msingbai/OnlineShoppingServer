@@ -144,6 +144,7 @@
             <artifactId>jjwt</artifactId>
             <version>0.9.1</version>
         </dependency>
+
         <!-- mybatis -->
         <dependency>
             <groupId>tk.mybatis</groupId>

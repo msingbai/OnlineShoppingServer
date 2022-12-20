@@ -1,9 +1,9 @@
 package team.jfshop.jinfengshopserver.controller;
 
 
-import team.jfshop.jinfengshopserver.wxpay.WXPayUtil;
+import team.jfshop.jinfengshopserver.util.wxpay.WXPayUtil;
 import team.jfshop.jinfengshopserver.service.OrderService;
-import team.jfshop.jinfengshopserver.websocket.WebSocketServer;
+import team.jfshop.jinfengshopserver.util.websocket.WebSocketServer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

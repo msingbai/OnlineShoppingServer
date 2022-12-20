@@ -1,7 +1,7 @@
 package team.jfshop.jinfengshopserver.controller;
 
 import team.jfshop.jinfengshopserver.service.UserAddrService;
-import team.jfshop.jinfengshopserver.vo.ResultVO;
+import team.jfshop.jinfengshopserver.util.vo.ResultVO;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import org.springframework.beans.factory.annotation.Autowired;

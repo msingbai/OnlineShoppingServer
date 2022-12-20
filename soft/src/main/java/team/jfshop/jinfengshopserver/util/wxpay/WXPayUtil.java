@@ -1,4 +1,4 @@
-package team.jfshop.jinfengshopserver.wxpay;
+package team.jfshop.jinfengshopserver.util.wxpay;
 
 
 import java.io.ByteArrayInputStream;
@@ -18,7 +18,7 @@ import javax.xml.transform.Transformer;
 import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
-import team.jfshop.jinfengshopserver.wxpay.WXPayConstants.SignType;
+import team.jfshop.jinfengshopserver.util.wxpay.WXPayConstants.SignType;
 
 
 public class WXPayUtil {

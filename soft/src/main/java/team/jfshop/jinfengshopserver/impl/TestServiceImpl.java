@@ -1,4 +1,4 @@
-package team.jfshop.jinfengshopserver.serviceImpl;
+package team.jfshop.jinfengshopserver.impl;
 
 import org.springframework.stereotype.Service;
 import team.jfshop.jinfengshopserver.service.TestService;

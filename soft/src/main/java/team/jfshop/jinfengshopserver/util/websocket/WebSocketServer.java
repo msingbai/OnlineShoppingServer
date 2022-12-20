@@ -1,6 +1,7 @@
-package team.jfshop.jinfengshopserver.websocket;
+package team.jfshop.jinfengshopserver.util.websocket;
 
 
+import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
 
 import javax.websocket.OnClose;
@@ -39,4 +40,3 @@ public class WebSocketServer {
     }
 
 }
-

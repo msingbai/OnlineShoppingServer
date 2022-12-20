@@ -1,6 +1,6 @@
 package team.jfshop.jinfengshopserver.config;
 
-import team.jfshop.jinfengshopserver.wxpay.WXPayConfig;
+import team.jfshop.jinfengshopserver.util.wxpay.WXPayConfig;
 
 import java.io.InputStream;
 

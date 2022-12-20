@@ -3,7 +3,7 @@ package team.jfshop.jinfengshopserver.controller;
 
 import team.jfshop.jinfengshopserver.service.ProductCommontsService;
 import team.jfshop.jinfengshopserver.service.ProductService;
-import team.jfshop.jinfengshopserver.vo.ResultVO;
+import team.jfshop.jinfengshopserver.util.vo.ResultVO;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;

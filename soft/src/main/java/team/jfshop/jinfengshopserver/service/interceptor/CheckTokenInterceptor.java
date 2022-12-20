@@ -1,8 +1,8 @@
-package team.jfshop.jinfengshopserver.interceptor;
+package team.jfshop.jinfengshopserver.service.interceptor;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import team.jfshop.jinfengshopserver.vo.ResStatus;
-import team.jfshop.jinfengshopserver.vo.ResultVO;
+import team.jfshop.jinfengshopserver.util.vo.ResStatus;
+import team.jfshop.jinfengshopserver.util.vo.ResultVO;
 import io.jsonwebtoken.*;
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerInterceptor;

@@ -1,4 +1,4 @@
-package team.jfshop.jinfengshopserver.wxpay;
+package team.jfshop.jinfengshopserver.util.wxpay;
 
 
 import java.io.InputStream;

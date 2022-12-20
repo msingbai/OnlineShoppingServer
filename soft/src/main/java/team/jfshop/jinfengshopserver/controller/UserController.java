@@ -2,8 +2,8 @@ package team.jfshop.jinfengshopserver.controller;
 
 import team.jfshop.jinfengshopserver.bean.Users;
 import team.jfshop.jinfengshopserver.service.UserService;
-import team.jfshop.jinfengshopserver.vo.ResStatus;
-import team.jfshop.jinfengshopserver.vo.ResultVO;
+import team.jfshop.jinfengshopserver.util.vo.ResStatus;
+import team.jfshop.jinfengshopserver.util.vo.ResultVO;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;

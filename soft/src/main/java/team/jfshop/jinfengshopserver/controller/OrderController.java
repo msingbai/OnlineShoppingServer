@@ -1,11 +1,11 @@
 package team.jfshop.jinfengshopserver.controller;
 
-import team.jfshop.jinfengshopserver.wxpay.WXPay;
+import team.jfshop.jinfengshopserver.util.wxpay.WXPay;
 import team.jfshop.jinfengshopserver.config.MyPayConfig;
 import team.jfshop.jinfengshopserver.bean.Orders;
 import team.jfshop.jinfengshopserver.service.OrderService;
-import team.jfshop.jinfengshopserver.vo.ResStatus;
-import team.jfshop.jinfengshopserver.vo.ResultVO;
+import team.jfshop.jinfengshopserver.util.vo.ResStatus;
+import team.jfshop.jinfengshopserver.util.vo.ResultVO;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;

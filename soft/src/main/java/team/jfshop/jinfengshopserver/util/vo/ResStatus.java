@@ -1,4 +1,4 @@
-package team.jfshop.jinfengshopserver.vo;
+package team.jfshop.jinfengshopserver.util.vo;
 
 public class ResStatus {
 

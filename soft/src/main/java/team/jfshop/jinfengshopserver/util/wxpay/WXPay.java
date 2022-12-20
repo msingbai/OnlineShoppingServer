@@ -1,7 +1,7 @@
-package team.jfshop.jinfengshopserver.wxpay;
+package team.jfshop.jinfengshopserver.util.wxpay;
 
 
-import team.jfshop.jinfengshopserver.wxpay.WXPayConstants.SignType;
+import team.jfshop.jinfengshopserver.util.wxpay.WXPayConstants.SignType;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;

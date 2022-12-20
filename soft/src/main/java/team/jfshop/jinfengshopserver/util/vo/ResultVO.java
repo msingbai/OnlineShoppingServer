@@ -1,11 +1,10 @@
-package team.jfshop.jinfengshopserver.vo;
+package team.jfshop.jinfengshopserver.util.vo;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import javax.annotation.Resource;
 
 @Data
 @NoArgsConstructor

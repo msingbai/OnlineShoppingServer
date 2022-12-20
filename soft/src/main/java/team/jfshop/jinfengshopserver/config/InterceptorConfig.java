@@ -1,7 +1,7 @@
 package team.jfshop.jinfengshopserver.config;
 
 
-import team.jfshop.jinfengshopserver.interceptor.CheckTokenInterceptor;
+import team.jfshop.jinfengshopserver.service.interceptor.CheckTokenInterceptor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
