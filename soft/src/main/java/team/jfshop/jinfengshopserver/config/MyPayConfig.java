@@ -8,7 +8,7 @@ import java.io.InputStream;
 public class MyPayConfig implements WXPayConfig {
     @Override
     public String getAppID() {
-        return "wx632c8f211f8122c6";
+        return ".....";
     }
 
     @Override
